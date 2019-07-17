@@ -1,0 +1,52 @@
+<!--lists.wxml-->
+<view class="warp">
+  <!--文章列表模板-->
+  <template name="lists">
+    <navigator url="../../pages/detail/detail?id={{id}}" hover-class="navigator-hover">
+      <view class="imgs">
+        <image src="/images/1.png" class="in-img" background-size="cover" modal="scaleToFill"></image>
+      </view>
+      <view class="infos">
+        <view class="title">园区泵站</view>
+        <view class="neirong">PH:{{PH}}</view>
+        <view class="neirong">COD:{{COD}}</view>
+        <view class="neirong">NH3N:{{NH3N}}</view>
+        <view class="neirong">TP:{{TP}}</view>
+        <view class="date">{{datetimee}}</view>
+      </view>
+    </navigator>
+  <navigator url="../../pages/detail/detail?id={{id}}" hover-class="navigator-hover">
+      <view class="imgs">
+        <image src="/images/1.png" class="in-img" background-size="cover" modal="scaleToFill"></image>
+      </view>
+      <view class="infos">
+        <view class="title">青东1号泵站</view>
+        <view class="neirong">PH:{{PH1}}</view>
+        <view class="neirong">COD:{{COD1}}</view>
+        <view class="neirong">NH3N:{{NH3N1}}</view>
+        <view class="neirong">TP:{{TP1}}</view>
+        <view class="date">{{datetimee1}}</view>
+      </view>
+    </navigator>
+     <navigator url="../../pages/detail/detail?id={{id}}" hover-class="navigator-hover">
+      <view class="imgs">
+        <image src="/images/1.png" class="in-img" background-size="cover" modal="scaleToFill"></image>
+      </view>
+      <view class="infos">
+        <view class="title">大观园泵站</view>
+        <view class="neirong">PH:{{PH2}}</view>
+        <view class="neirong">COD:{{COD2}}</view>
+        <view class="neirong">NH3N:{{NH3N2}}</view>
+        <view class="neirong">TP:{{TP2}}</view>
+        <view class="date">{{datetimee2}}</view>
+      </view>
+    </navigator>
+  </template>
+
+  <!--文章列表模板结束-->
+  <!--循环输出列表-->
+  <view wx:for="{{newsList}}" wx:for-item="news" class="list">
+    <template is="lists" data="{{...news}}" />
+
+  </view>
+</view>
