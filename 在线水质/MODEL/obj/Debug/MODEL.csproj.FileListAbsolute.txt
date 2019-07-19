@@ -2,3 +2,9 @@ C:\Users\ysq20\Documents\Visual Studio 2013\Projects\在线水质\MODEL\bin\Debu
 C:\Users\ysq20\Documents\Visual Studio 2013\Projects\在线水质\MODEL\bin\Debug\MODEL.pdb
 C:\Users\ysq20\Documents\Visual Studio 2013\Projects\在线水质\MODEL\obj\Debug\MODEL.dll
 C:\Users\ysq20\Documents\Visual Studio 2013\Projects\在线水质\MODEL\obj\Debug\MODEL.pdb
+D:\01,githubRoom\weixin_back\在线水质\MODEL\bin\Debug\MODEL.dll
+D:\01,githubRoom\weixin_back\在线水质\MODEL\bin\Debug\MODEL.pdb
+D:\01,githubRoom\weixin_back\在线水质\MODEL\obj\Debug\MODEL.csprojAssemblyReference.cache
+D:\01,githubRoom\weixin_back\在线水质\MODEL\obj\Debug\MODEL.csproj.CoreCompileInputs.cache
+D:\01,githubRoom\weixin_back\在线水质\MODEL\obj\Debug\MODEL.dll
+D:\01,githubRoom\weixin_back\在线水质\MODEL\obj\Debug\MODEL.pdb

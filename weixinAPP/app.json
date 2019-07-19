@@ -6,7 +6,6 @@
     "pages/aboutme/aboutme",
     "pages/index/index",
     "pages/logs/logs"
-    
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -16,7 +15,7 @@
   },
   "tabBar": {
     "list": [
-      { 
+      {
         "pagePath": "pages/lists/lists",
         "text": "首页"
       },
@@ -25,5 +24,6 @@
         "text": "关于我们"
       }
     ]
-  }
+  },
+  "sitemapLocation": "sitemap.json"
 }

@@ -7,3 +7,14 @@ C:\Users\ysq20\Documents\Visual Studio 2013\Projects\在线水质\BLL\bin\Debug\
 C:\Users\ysq20\Documents\Visual Studio 2013\Projects\在线水质\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
 C:\Users\ysq20\Documents\Visual Studio 2013\Projects\在线水质\BLL\obj\Debug\BLL.dll
 C:\Users\ysq20\Documents\Visual Studio 2013\Projects\在线水质\BLL\obj\Debug\BLL.pdb
+D:\01,githubRoom\weixin_back\在线水质\BLL\bin\Debug\BLL.dll
+D:\01,githubRoom\weixin_back\在线水质\BLL\bin\Debug\BLL.pdb
+D:\01,githubRoom\weixin_back\在线水质\BLL\bin\Debug\DAL.dll
+D:\01,githubRoom\weixin_back\在线水质\BLL\bin\Debug\MODEL.dll
+D:\01,githubRoom\weixin_back\在线水质\BLL\bin\Debug\DAL.pdb
+D:\01,githubRoom\weixin_back\在线水质\BLL\bin\Debug\MODEL.pdb
+D:\01,githubRoom\weixin_back\在线水质\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+D:\01,githubRoom\weixin_back\在线水质\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\01,githubRoom\weixin_back\在线水质\BLL\obj\Debug\BLL.csproj.CopyComplete
+D:\01,githubRoom\weixin_back\在线水质\BLL\obj\Debug\BLL.dll
+D:\01,githubRoom\weixin_back\在线水质\BLL\obj\Debug\BLL.pdb
