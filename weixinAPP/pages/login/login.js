@@ -1,7 +1,7 @@
 Page({
   data: {
-    phone: 'user',
-    password: '123'
+    phone:'',
+    password:''
   },
 
   // 获取输入账号
@@ -27,55 +27,54 @@ Page({
         duration: 2000
       })
     } else {
-//若用户名和密码不为空，则向服务器提交数据，等待服务器发送验证成功或失败响应
- this.phone=this.data.phone,
- this.password=this.data.password,
-wx.request({
-   //url: 'http://10.0.0.146:12345/login.aspx?method=verify',
-   //url: 'https://localhost:44363/login.aspx/verify',
-   url: 'https://localhost:44363/login.aspx/verify',
-   dataType:JSON,
-   method:'POST',
-   header: {
-     "Content-Type": "application/x-www-form-urlencoded"
-     // "Content-Type": "application/json"
-   },
-   data:   {
-     userNmae:"user",
-     pwd: "pwd"
-    //  userNmae: this.phone,
-    //  pwd: this.password
-   },
-     //'{"userName":"' + this.phone + '","password":"' + this.password + '"}',
-   
- 
-  success:function(data){
-    console.log(data);
-    if (data.d==true){
-       // 这里修改成跳转的页面
-       wx.showToast({
-         title: '登录成功',
-         icon: 'success',
-         duration: 2000,
-         success: function () {
-           setTimeout(function () {
-             wx.switchTab({
-               url: '../../pages/lists/lists',
-             })
-           }, 2000)
-         }
-       })
-     }
-     else{
-       wx.showToast({
-         title: '用户名或密码错误',
-       })
-     }
-  }
+      //若用户名和密码不为空，则向服务器提交数据，等待服务器发送验证成功或失败响应
+      this.phone = this.data.phone,
+        this.password = this.data.password,
+        wx.request({
+        url: 'https://localhost:44363/login.aspx?method=get1',
 
-})
+          header: {
+            "Content-Type": "application/json"
+          },
+          data: {
+            userName: this.phone,
+            pwd: this.password
+          },
+
+
+          success: function (res) {
+            console.log(res);
+            if (res.data == "True") {
+              // 这里修改成跳转的页面
+              wx.showToast({
+                title: '登录成功',
+                icon: 'success',
+                duration: 2000,
+                success: function () {
+                  setTimeout(function () {
+                    wx.switchTab({
+                      url: '../../pages/lists/lists',
+                    })
+                  }, 2000)
+                }
+              })
+            }
+            else {
+              wx.showToast({
+                title: '用户名或密码错误',
+              })
+            }
+          }
+
+        })
 
 
     }
+  },
+
+  logon:function(){
+    wx.navigateTo({
+      url: '../../pages/logon/logon'
+    })
   }
 })

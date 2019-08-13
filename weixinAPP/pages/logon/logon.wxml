@@ -1,10 +1,6 @@
-<view class="container"> 
- <view class="login-icon"> 
- <image class="login-img" src="../../images/loginLog.jpg"></image> 
- </view> 
- <view class="login-from"> 
-  
- <!--账号-->
+<view class="container">
+
+<!--账号-->
  <view class="inputView"> 
   <image class="nameImage" src="../../images/name.png"></image> 
   <label class="loginLab">账号</label> 
@@ -18,12 +14,15 @@
   <label class="loginLab">密码</label> 
   <input class="inputText" password="true" placeholder="请输入密码" bindinput="passwordInput" /> 
  </view> 
-  
- <!--按钮-->
- <view class="loginBtnView"> 
-  <button class="loginBtn" type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}" disabled="{{disabled}}" bindtap="login">登录</button> 
 
-   <!-- <button  type="default" size='mini'  border="none"  plain="true" disabled="{{disabled}}" bindtap="logon">注册</button>  -->
+ <view class="inputView"> 
+  <image class="keyImage" src="../../images/key.png"></image> 
+  <label class="loginLab">确认密码</label> 
+  <input class="inputText" password="true" placeholder="请再次输入密码密码" bindinput="passwordInputAgain" /> 
  </view> 
- </view> 
+
+<!--按钮-->
+ <view class="loginBtnView"> 
+  <button class="loginBtn" type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}" disabled="{{disabled}}" bindtap="logon">注册</button> 
+</view>
 </view>

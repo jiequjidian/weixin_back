@@ -4,12 +4,18 @@
   flex-direction: column;
   padding:10rpx;
 }
-navigator{ overflow: hidden;}
+.navigator-hover{ overflow:hidden;}
 .list{
   margin-bottom:20rpx;
   height: 300rpx;
   position:relative;
 }
+.kuangkuang{
+ background-color:#aaa;
+ margin: 10rpx;
+ height: 300rpx;
+}
+
 .imgs{float:left;}
 .imgs image{display:block;width:200rpx;height: 200rpx;padding: 20rpx}
 .infos{

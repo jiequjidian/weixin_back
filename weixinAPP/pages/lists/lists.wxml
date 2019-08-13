@@ -1,10 +1,11 @@
 <!--lists.wxml-->
 <view class="warp">
   <!--文章列表模板-->
-  <template name="lists">
-    <navigator url="../../pages/detail/detail?id={{id}}" hover-class="navigator-hover">
+  <template name="lists"> 
+ 
+  <navigator url="../../pages/detail/detail?id={{id}}" hover-class="navigator-hover" >
       <view class="imgs">
-        <image src="/images/1.png" class="in-img" background-size="cover" modal="scaleToFill"></image>
+        <image src="/images/pi.png" class="in-img" background-size="cover" modal="scaleToFill"></image>
       </view>
       <view class="infos">
         <view class="title">园区泵站</view>
@@ -15,9 +16,10 @@
         <view class="date">{{datetimee}}</view>
       </view>
     </navigator>
+   
   <navigator url="../../pages/detail/detail?id={{id}}" hover-class="navigator-hover">
       <view class="imgs">
-        <image src="/images/1.png" class="in-img" background-size="cover" modal="scaleToFill"></image>
+        <image src="/images/pi.png" class="in-img" background-size="cover" modal="scaleToFill"></image>
       </view>
       <view class="infos">
         <view class="title">青东1号泵站</view>
@@ -28,9 +30,10 @@
         <view class="date">{{datetimee1}}</view>
       </view>
     </navigator>
+   
      <navigator url="../../pages/detail/detail?id={{id}}" hover-class="navigator-hover">
       <view class="imgs">
-        <image src="/images/1.png" class="in-img" background-size="cover" modal="scaleToFill"></image>
+        <image src="/images/pi.png" class="in-img" background-size="cover" modal="scaleToFill"></image>
       </view>
       <view class="infos">
         <view class="title">大观园泵站</view>
@@ -41,6 +44,8 @@
         <view class="date">{{datetimee2}}</view>
       </view>
     </navigator>
+    
+   
   </template>
 
   <!--文章列表模板结束-->
