@@ -31,7 +31,7 @@ Page({
       this.phone = this.data.phone,
         this.password = this.data.password,
         wx.request({
-        url: 'https://localhost:44363/login.aspx?method=get1',
+        url: 'https://yuanshengqi.top/Default.aspx?method=getuser',
 
           header: {
             "Content-Type": "application/json"
