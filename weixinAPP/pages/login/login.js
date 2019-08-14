@@ -61,6 +61,7 @@ Page({
             }
             else {
               wx.showToast({
+                icon:"error",
                 title: '用户名或密码错误',
               })
             }
