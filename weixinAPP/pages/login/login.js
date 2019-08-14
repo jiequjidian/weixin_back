@@ -37,14 +37,18 @@ Page({
             "Content-Type": "application/json"
           },
           data: {
-            userName: this.phone,
-            pwd: this.password
+            username: this.phone,
+            password: this.password
           },
 
 
           success: function (res) {
-            console.log(res);
+            console.log("res:"+res);
+            console.log("res.data"+res.data);
             if (res.data == "True") {
+              
+             // if (res.data!=null) {
+               
               // 这里修改成跳转的页面
               wx.showToast({
                 title: '登录成功',
